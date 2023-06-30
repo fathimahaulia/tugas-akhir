@@ -1,3 +1,5 @@
+from tensorflow.keras.layers import *
+
 class Time2Vector(Layer):
     def __init__(self, seq_len, **kwargs):
         super(Time2Vector, self).__init__()
